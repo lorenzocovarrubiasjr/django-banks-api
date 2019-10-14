@@ -1,0 +1,59 @@
+[
+  {"model": "phase2.branch",
+    "pk": 1,
+    "fields": {
+      "address": "712 Main Street",
+      "city": "Houston",
+      "state": "TX",
+      "zipcode": 77002
+    }
+  },
+  {"model": "phase2.branch",
+    "pk": 2,
+    "fields": {
+      "address": "10319 North Fwy",
+      "city": "Houston",
+      "state": "TX",
+      "zipcode": 77037
+    }
+  },
+  {"model": "phase2.branch",
+    "pk": 3,
+    "fields": {
+      "address": "12802 Memorial Dr",
+      "city": "Houston",
+      "state": "TX",
+      "zipcode": 77024
+    }
+  },
+  {"model": "phase2.employee",
+    "pk": 1,
+    "fields": {
+      "branch": 2, 
+      "firstname":"Lorenzo", 
+      "lastname":"Covarrubias",
+      "position": "Software Dev",
+      "start_date": "2019-12-01"
+    }
+  },
+  {"model": "phase2.employee",
+    "pk": 2,
+    "fields": {
+      "branch": 3, 
+      "firstname":"Imelda", 
+      "lastname":"Izaguirre",
+      "position": "Front End Dev",
+      "start_date": "2020-01-21"
+    }
+  },
+  {"model": "phase2.employee",
+    "pk": 3,
+    "fields": {
+      "branch": 1, 
+      "firstname":"Kari", 
+      "lastname":"Esther",
+      "position": "Fraud Analyst",
+      "start_date": "2030-05-05"
+    }
+  }
+  ]
